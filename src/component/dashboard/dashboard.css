@@ -1,0 +1,46 @@
+.container {
+  max-width: 1000px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  background-color: rgba(81, 162, 234, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 300px;
+  transition: 1s ease;
+}
+.card:hover {
+  background-color: rgba(174, 213, 247, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(26, 27, 54, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.city-name {
+  margin: 15px auto;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  color: black;
+}
+.date {
+  margin: 5px auto;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+.icon {
+  margin-right: 5px;
+}
+.description {
+  font-size: 20px;
+  margin: 10px auto;
+}
+.temp {
+  font-size: 35px;
+  margin: 10px auto;
+}
